@@ -1,0 +1,553 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\authentication.service\\services\\policybasedauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|solutionrelative:authentication.service\\services\\policybasedauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\authentication.service\\services\\jwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|solutionrelative:authentication.service\\services\\jwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\authentication.service\\models\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|solutionrelative:authentication.service\\models\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\authentication.service\\models\\authconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|solutionrelative:authentication.service\\models\\authconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\authentication.service\\interfaces\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|solutionrelative:authentication.service\\interfaces\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\authentication.service\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{385B3EDE-C1C3-4BE2-B45B-F70E08735272}|Authentication.Service\\Authentication.Service.csproj|solutionrelative:authentication.service\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.api\\controllers\\repaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\controllers\\repaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.api\\credwisecustomer.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\credwisecustomer.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC8DADD-BE9C-4742-B8CF-32E961C0038B}|JwtSampleGenerator\\JwtSampleGenerator.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\jwtsamplegenerator\\jwtsamplegenerator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5EC8DADD-BE9C-4742-B8CF-32E961C0038B}|JwtSampleGenerator\\JwtSampleGenerator.csproj|solutionrelative:jwtsamplegenerator\\jwtsamplegenerator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\mappings\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\mappings\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|solutionrelative:credwisecustomer.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.api\\controllers\\fdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A976FF-9EB1-476B-8DE8-36014C361B26}|CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj|solutionrelative:credwisecustomer.api\\controllers\\fdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\validators\\updateuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\validators\\updateuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511E176E-6814-4DBE-96E2-6D152E6625F1}|CredWiseCustomer.Infrastructure\\CredWiseCustomer.Infrastructure.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511E176E-6814-4DBE-96E2-6D152E6625F1}|CredWiseCustomer.Infrastructure\\CredWiseCustomer.Infrastructure.csproj|solutionrelative:credwisecustomer.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511E176E-6814-4DBE-96E2-6D152E6625F1}|CredWiseCustomer.Infrastructure\\CredWiseCustomer.Infrastructure.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511E176E-6814-4DBE-96E2-6D152E6625F1}|CredWiseCustomer.Infrastructure\\CredWiseCustomer.Infrastructure.csproj|solutionrelative:credwisecustomer.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\validators\\createuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\validators\\createuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E074E59-B859-4764-A366-E6E9731D0042}|CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj|solutionrelative:credwisecustomer.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.core\\entities\\loanapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|solutionrelative:credwisecustomer.core\\entities\\loanapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.core\\entities\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|solutionrelative:credwisecustomer.core\\entities\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.core\\entities\\fdapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|solutionrelative:credwisecustomer.core\\entities\\fdapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwisecustomer.core\\entities\\decisionapplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4412FF-88A4-444F-BDFF-2483AE76B3C9}|CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj|solutionrelative:credwisecustomer.core\\entities\\decisionapplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AD84197-C444-4725-8C73-C23C3E19469C}|CredWise.Utills\\CredWiseCustomer.Utills.csproj|c:\\users\\sai sahith ajju\\desktop\\dupcw\\credwisecustomer\\credwisecustomer\\credwisecustomer\\credwise.utills\\entities\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AD84197-C444-4725-8C73-C23C3E19469C}|CredWise.Utills\\CredWiseCustomer.Utills.csproj|solutionrelative:credwise.utills\\entities\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthResult.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Models\\AuthResult.cs",
+              "RelativeDocumentMoniker": "Authentication.Service\\Models\\AuthResult.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Models\\AuthResult.cs",
+              "RelativeToolTip": "Authentication.Service\\Models\\AuthResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:13:50.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Models\\AuthConfiguration.cs",
+              "RelativeDocumentMoniker": "Authentication.Service\\Models\\AuthConfiguration.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Models\\AuthConfiguration.cs",
+              "RelativeToolTip": "Authentication.Service\\Models\\AuthConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:13:39.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthorizationService.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Interfaces\\IAuthorizationService.cs",
+              "RelativeDocumentMoniker": "Authentication.Service\\Interfaces\\IAuthorizationService.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Interfaces\\IAuthorizationService.cs",
+              "RelativeToolTip": "Authentication.Service\\Interfaces\\IAuthorizationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:12:23.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Services\\JwtAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Authentication.Service\\Services\\JwtAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Services\\JwtAuthenticationService.cs",
+              "RelativeToolTip": "Authentication.Service\\Services\\JwtAuthenticationService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:23:27.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PolicyBasedAuthorizationService.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Services\\PolicyBasedAuthorizationService.cs",
+              "RelativeDocumentMoniker": "Authentication.Service\\Services\\PolicyBasedAuthorizationService.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Services\\PolicyBasedAuthorizationService.cs",
+              "RelativeToolTip": "Authentication.Service\\Services\\PolicyBasedAuthorizationService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:23:34.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Interfaces\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Authentication.Service\\Interfaces\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Interfaces\\IAuthenticationService.cs",
+              "RelativeToolTip": "Authentication.Service\\Interfaces\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:11:53.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\Controllers\\RepaymentController.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\Controllers\\RepaymentController.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\Controllers\\RepaymentController.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\Controllers\\RepaymentController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:32:41.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtSampleGenerator",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\JwtSampleGenerator\\JwtSampleGenerator.csproj",
+              "RelativeDocumentMoniker": "JwtSampleGenerator\\JwtSampleGenerator.csproj",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\JwtSampleGenerator\\JwtSampleGenerator.csproj",
+              "RelativeToolTip": "JwtSampleGenerator\\JwtSampleGenerator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-25T12:16:21.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CredWiseCustomer.Api",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj",
+              "RelativeToolTip": "CredWiseCustomer.Api\\CredWiseCustomer.Api.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-25T10:39:41.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\appsettings.json",
+              "RelativeToolTip": "CredWiseCustomer.Api\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-24T08:14:35.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAowH8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:06:56.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\Program.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\Program.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAQwI4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:14:19.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Mappings\\UserProfile.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Mappings\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Mappings\\UserProfile.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Mappings\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:26:58.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\User.cs",
+              "RelativeToolTip": "CredWiseCustomer.Core\\Entities\\User.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:13:48.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\DTOs\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\DTOs\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\DTOs\\CreateUserDto.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\DTOs\\CreateUserDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:56:22.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\DTOs\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\DTOs\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:42:45.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:28:57.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CredWiseCustomer.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAiwOwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:09:14.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CredWiseCustomer.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:03:00.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FdController.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\Controllers\\FdController.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Api\\Controllers\\FdController.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Api\\Controllers\\FdController.cs",
+              "RelativeToolTip": "CredWiseCustomer.Api\\Controllers\\FdController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T11:17:26.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateUserDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Validators\\UpdateUserDtoValidator.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Validators\\UpdateUserDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Validators\\UpdateUserDtoValidator.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Validators\\UpdateUserDtoValidator.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:04:12.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateUserDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Validators\\CreateUserDtoValidator.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Validators\\CreateUserDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Validators\\CreateUserDtoValidator.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Validators\\CreateUserDtoValidator.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:19:01.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Services\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Services\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Services\\PasswordHasher.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Services\\PasswordHasher.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:54:14.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:40:39.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:40:30.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\Interfaces\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\Interfaces\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:40:15.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Application\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "CredWiseCustomer.Application\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T06:56:13.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoanApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\LoanApplication.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Core\\Entities\\LoanApplication.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\LoanApplication.cs",
+              "RelativeToolTip": "CredWiseCustomer.Core\\Entities\\LoanApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:14:36.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PaymentTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\PaymentTransaction.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Core\\Entities\\PaymentTransaction.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\PaymentTransaction.cs",
+              "RelativeToolTip": "CredWiseCustomer.Core\\Entities\\PaymentTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:14:22.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Fdapplication.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\Fdapplication.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Core\\Entities\\Fdapplication.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\Fdapplication.cs",
+              "RelativeToolTip": "CredWiseCustomer.Core\\Entities\\Fdapplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:12:25.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DecisionAppLog.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\DecisionAppLog.cs",
+              "RelativeDocumentMoniker": "CredWiseCustomer.Core\\Entities\\DecisionAppLog.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\Entities\\DecisionAppLog.cs",
+              "RelativeToolTip": "CredWiseCustomer.Core\\Entities\\DecisionAppLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:10:05.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWise.Utills\\Entities\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CredWise.Utills\\Entities\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWise.Utills\\Entities\\AppDbContext.cs",
+              "RelativeToolTip": "CredWise.Utills\\Entities\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:02:43.054Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
