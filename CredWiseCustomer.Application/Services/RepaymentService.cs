@@ -33,30 +33,7 @@ namespace CredWiseCustomer.Application.Services
 
             repayment.Status = "Paid";
             await _repo.UpdateRepaymentAsync(repayment);
-
-            // Create and store the payment transaction
-            var paymentTransaction = new PaymentTransaction
-            {
-                LoanApplicationId = repayment.LoanApplicationId,
-                RepaymentId = repayment.RepaymentId,
-                Amount = dto.Amount,
-                PaymentDate = DateTime.UtcNow,
-                PaymentMethod = dto.PaymentMethod,
-                TransactionStatus = "Success",
-                TransactionReference = Guid.NewGuid().ToString(),
-                IsActive = true,
-                CreatedAt = DateTime.UtcNow,
-                CreatedBy = "System"
-            };
-            // Save the payment transaction (assume _repo or context has AddPaymentTransactionAsync)
-            await _repo.AddPaymentTransactionAsync(paymentTransaction);
-
             return true;
-        }
-
-        public async Task<IEnumerable<PaymentHistoryDto>> GetPaymentHistoryByUserIdAsync(int userId)
-        {
-            return await _repo.GetPaymentHistoryByUserIdAsync(userId);
         }
     }
 } 

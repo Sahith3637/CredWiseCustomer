@@ -6,6 +6,5 @@ namespace CredWiseCustomer.Application.DTOs
         public int FDTypeId { get; set; }
         public decimal Amount { get; set; }
         public int Duration { get; set; } // in months
-        public string CreatedBy { get; set; } = "Customer";
     }
 } 

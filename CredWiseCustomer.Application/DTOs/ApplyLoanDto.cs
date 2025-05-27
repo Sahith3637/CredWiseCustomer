@@ -12,7 +12,6 @@ namespace CredWiseCustomer.Application.DTOs
         public string Address { get; set; }
         public decimal Income { get; set; }
         public string EmploymentType { get; set; }
-        public string CreatedBy { get; set; } = "Customer";
-        public Dictionary<string, object> AdditionalDetails { get; set; } = new();
+        public object CreatedBy { get; internal set; }
     }
 } 

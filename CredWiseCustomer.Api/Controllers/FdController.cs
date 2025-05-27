@@ -19,7 +19,6 @@ namespace CredWiseCustomer.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<int>> ApplyForFd([FromBody] ApplyFdDto dto)
         {
-            dto.CreatedBy = "Customer";
             var fdId = await _fdService.ApplyForFdAsync(dto);
             return CreatedAtAction(nameof(GetFdStatus), new { fdApplicationId = fdId }, fdId);
         }

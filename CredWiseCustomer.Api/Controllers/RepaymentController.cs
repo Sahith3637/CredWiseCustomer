@@ -30,17 +30,7 @@ namespace CredWiseCustomer.Api.Controllers
             var result = await _service.SubmitPaymentAsync(dto);
             if (!result)
                 return BadRequest("Payment amount does not match due amount or already paid.");
-            // Fetch the updated repayment schedule to get payment type
-            var schedule = await _service.GetRepaymentScheduleAsync(dto.RepaymentId);
-            var paidInstallment = schedule.FirstOrDefault(x => x.RepaymentId == dto.RepaymentId);
-            return Ok(new { message = "Payment successful.", paymentType = paidInstallment?.PaymentType });
-        }
-
-        [HttpGet("user/{userId}/payment-history")]
-        public async Task<ActionResult<IEnumerable<PaymentHistoryDto>>> GetPaymentHistoryByUser(int userId)
-        {
-            var history = await _service.GetPaymentHistoryByUserIdAsync(userId);
-            return Ok(history);
+            return Ok("Payment successful.");
         }
     }
 } 

@@ -242,44 +242,6 @@
         }
       }
     },
-    "/api/HowItWorks": {
-      "get": {
-        "tags": [
-          "HowItWorks"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HowItWorksStepDto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HowItWorksStepDto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/HowItWorksStepDto"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/Loan": {
       "post": {
         "tags": [
@@ -310,17 +272,20 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/LoanStatusDtoApiResponse"
+                  "type": "integer",
+                  "format": "int32"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/LoanStatusDtoApiResponse"
+                  "type": "integer",
+                  "format": "int32"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/LoanStatusDtoApiResponse"
+                  "type": "integer",
+                  "format": "int32"
                 }
               }
             }
@@ -350,17 +315,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/LoanStatusDtoApiResponse"
+                  "$ref": "#/components/schemas/LoanStatusDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/LoanStatusDtoApiResponse"
+                  "$ref": "#/components/schemas/LoanStatusDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/LoanStatusDtoApiResponse"
+                  "$ref": "#/components/schemas/LoanStatusDto"
                 }
               }
             }
@@ -390,79 +355,26 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/LoanStatusDtoIEnumerableApiResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/LoanStatusDtoIEnumerableApiResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/LoanStatusDtoIEnumerableApiResponse"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/Loan/upload-loan-product-document": {
-      "post": {
-        "tags": [
-          "Loan"
-        ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "LoanProductId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "DocumentName": {
-                    "type": "string"
-                  },
-                  "File": {
-                    "type": "string",
-                    "format": "binary"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LoanStatusDto"
                   }
                 }
               },
-              "encoding": {
-                "LoanProductId": {
-                  "style": "form"
-                },
-                "DocumentName": {
-                  "style": "form"
-                },
-                "File": {
-                  "style": "form"
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ObjectApiResponse"
-                }
-              },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ObjectApiResponse"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LoanStatusDto"
+                  }
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ObjectApiResponse"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LoanStatusDto"
+                  }
                 }
               }
             }
@@ -546,55 +458,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Repayment/user/{userId}/payment-history": {
-      "get": {
-        "tags": [
-          "Repayment"
-        ],
-        "parameters": [
-          {
-            "name": "userId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/PaymentHistoryDto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/PaymentHistoryDto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/PaymentHistoryDto"
-                  }
-                }
-              }
-            }
           }
         }
       }
@@ -1145,10 +1008,6 @@
           "duration": {
             "type": "integer",
             "format": "int32"
-          },
-          "createdBy": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1197,13 +1056,8 @@
             "nullable": true
           },
           "createdBy": {
-            "type": "string",
-            "nullable": true
-          },
-          "additionalDetails": {
-            "type": "object",
-            "additionalProperties": { },
-            "nullable": true
+            "nullable": true,
+            "readOnly": true
           }
         },
         "additionalProperties": false
@@ -1328,24 +1182,6 @@
         },
         "additionalProperties": false
       },
-      "HowItWorksStepDto": {
-        "type": "object",
-        "properties": {
-          "stepNumber": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "LoanStatusDto": {
         "type": "object",
         "properties": {
@@ -1390,48 +1226,6 @@
         },
         "additionalProperties": false
       },
-      "LoanStatusDtoApiResponse": {
-        "type": "object",
-        "properties": {
-          "success": {
-            "type": "boolean"
-          },
-          "data": {
-            "$ref": "#/components/schemas/LoanStatusDto"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "errors": {
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "LoanStatusDtoIEnumerableApiResponse": {
-        "type": "object",
-        "properties": {
-          "success": {
-            "type": "boolean"
-          },
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/LoanStatusDto"
-            },
-            "nullable": true
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "errors": {
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "LoginUserDto": {
         "type": "object",
         "properties": {
@@ -1460,44 +1254,6 @@
             "nullable": true
           },
           "errors": {
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PaymentHistoryDto": {
-        "type": "object",
-        "properties": {
-          "transactionId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "loanApplicationId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "repaymentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "amount": {
-            "type": "number",
-            "format": "double"
-          },
-          "paymentDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "paymentMethod": {
-            "type": "string",
-            "nullable": true
-          },
-          "status": {
-            "type": "string",
-            "nullable": true
-          },
-          "reference": {
-            "type": "string",
             "nullable": true
           }
         },
@@ -1535,10 +1291,6 @@
             "format": "double"
           },
           "status": {
-            "type": "string",
-            "nullable": true
-          },
-          "paymentType": {
             "type": "string",
             "nullable": true
           }
@@ -1603,10 +1355,6 @@
           "amount": {
             "type": "number",
             "format": "double"
-          },
-          "paymentMethod": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
