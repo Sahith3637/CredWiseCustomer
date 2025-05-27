@@ -189,6 +189,24 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Global Exception Handling Middleware
+app.Use(async (context, next) =>
+{
+    try
+    {
+        await next();
+    }
+    catch (Exception ex)
+    {
+        var logger = context.RequestServices.GetService<AuditLogger>();
+        logger?.LogError($"Unhandled exception: {ex.Message}", context.Request.Path, context.Request.Method);
+        context.Response.StatusCode = 500;
+        context.Response.ContentType = "application/json";
+        var response = ApiResponse<object>.CreateError("An unexpected error occurred.", ex.Message);
+        await context.Response.WriteAsJsonAsync(response);
+    }
+});
+
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

@@ -10,5 +10,6 @@ namespace CredWiseCustomer.Application.DTOs
         public decimal InterestAmount { get; set; }
         public decimal TotalAmount { get; set; }
         public string Status { get; set; }
+        public string? PaymentType { get; set; }
     }
 } 

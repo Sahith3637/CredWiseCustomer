@@ -6,5 +6,6 @@ namespace CredWiseCustomer.Application.Interfaces
     {
         Task<IEnumerable<RepaymentScheduleDto>> GetRepaymentScheduleAsync(int loanApplicationId);
         Task<bool> SubmitPaymentAsync(SubmitPaymentDto dto);
+        Task<IEnumerable<PaymentHistoryDto>> GetPaymentHistoryByUserIdAsync(int userId);
     }
 } 

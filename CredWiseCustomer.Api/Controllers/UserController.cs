@@ -230,22 +230,22 @@ namespace CredWiseCustomer.API.Controllers
                     return Unauthorized(ApiResponse<object>.CreateError("Invalid credentials"));
                 }
 
-                var claims = new Dictionary<string, object>
-                {
-                    { "unique_name", user.Email },
-                    { "nameid", user.UserId.ToString() },
-                    { "role", user.Role ?? "Customer" }
-                };
+            var claims = new Dictionary<string, object>
+            {
+                { "unique_name", user.Email },
+                { "nameid", user.UserId.ToString() },
+                { "role", user.Role ?? "Customer" }
+            };
 
-                var token = await _authService.GenerateTokenAsync(claims);
-                var validationResult = await _authService.ValidateTokenAsync(token);
+            var token = await _authService.GenerateTokenAsync(claims);
+            var validationResult = await _authService.ValidateTokenAsync(token);
                 
-                if (!validationResult.IsValid)
-                {
+            if (!validationResult.IsValid)
+            {
                     _logger.LogError($"Failed to generate valid token for user {user.Email}", "/api/User/login", "POST");
                     return StatusCode(500, ApiResponse<object>.CreateError("Failed to generate valid token"));
-                }
-
+            }
+            
                 _logger.LogUserLogin(user.Role ?? "Customer", user.UserId.ToString(), "/api/User/login");
                 return Ok(ApiResponse<object>.CreateSuccess(
                     new { token, user }, 

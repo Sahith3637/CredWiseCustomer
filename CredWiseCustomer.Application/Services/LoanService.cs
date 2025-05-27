@@ -22,7 +22,58 @@ namespace CredWiseCustomer.Application.Services
             loan.Status = "Initial Review";
             loan.CreatedAt = DateTime.UtcNow;
             loan.IsActive = true;
-            return await _repo.AddLoanApplicationAsync(loan);
+            await _repo.AddLoanApplicationAsync(loan);
+
+            var loanProduct = await _repo.GetLoanProductByIdAsync(dto.LoanProductId);
+
+            if (loanProduct.LoanType == "Gold")
+            {
+                var goldDetails = new GoldLoanDetail
+                {
+                    LoanProductId = loanProduct.LoanProductId,
+                    InterestRate = Convert.ToDecimal(dto.AdditionalDetails["InterestRate"]),
+                    TenureMonths = Convert.ToInt32(dto.AdditionalDetails["TenureMonths"]),
+                    ProcessingFee = Convert.ToDecimal(dto.AdditionalDetails["ProcessingFee"]),
+                    GoldPurityRequired = dto.AdditionalDetails["GoldPurityRequired"]?.ToString(),
+                    RepaymentType = dto.AdditionalDetails["RepaymentType"]?.ToString(),
+                    IsActive = true,
+                    CreatedAt = DateTime.UtcNow,
+                    CreatedBy = dto.CreatedBy
+                };
+                await _repo.AddGoldLoanDetailAsync(goldDetails);
+            }
+            else if (loanProduct.LoanType == "Home")
+            {
+                var homeDetails = new HomeLoanDetail
+                {
+                    LoanProductId = loanProduct.LoanProductId,
+                    InterestRate = Convert.ToDecimal(dto.AdditionalDetails["InterestRate"]),
+                    TenureMonths = Convert.ToInt32(dto.AdditionalDetails["TenureMonths"]),
+                    ProcessingFee = Convert.ToDecimal(dto.AdditionalDetails["ProcessingFee"]),
+                    DownPaymentPercentage = Convert.ToDecimal(dto.AdditionalDetails["DownPaymentPercentage"]),
+                    IsActive = true,
+                    CreatedAt = DateTime.UtcNow,
+                    CreatedBy = dto.CreatedBy
+                };
+                await _repo.AddHomeLoanDetailAsync(homeDetails);
+            }
+            else if (loanProduct.LoanType == "Personal")
+            {
+                var personalDetails = new PersonalLoanDetail
+                {
+                    LoanProductId = loanProduct.LoanProductId,
+                    InterestRate = Convert.ToDecimal(dto.AdditionalDetails["InterestRate"]),
+                    TenureMonths = Convert.ToInt32(dto.AdditionalDetails["TenureMonths"]),
+                    ProcessingFee = Convert.ToDecimal(dto.AdditionalDetails["ProcessingFee"]),
+                    MinSalaryRequired = Convert.ToDecimal(dto.AdditionalDetails["MinSalaryRequired"]),
+                    IsActive = true,
+                    CreatedAt = DateTime.UtcNow,
+                    CreatedBy = dto.CreatedBy
+                };
+                await _repo.AddPersonalLoanDetailAsync(personalDetails);
+            }
+
+            return loan.LoanApplicationId;
         }
 
         public async Task<LoanStatusDto?> GetLoanStatusAsync(int loanApplicationId)
@@ -35,6 +86,33 @@ namespace CredWiseCustomer.Application.Services
         {
             var loans = await _repo.GetLoansByUserIdAsync(userId);
             return loans.Select(_mapper.Map<LoanStatusDto>);
+        }
+
+        public async Task<IEnumerable<LoanProductDocumentDto>> GetRequiredDocumentsAsync(int loanProductId)
+        {
+            var docs = await _repo.GetRequiredDocumentsAsync(loanProductId);
+            return docs.Select(doc => new LoanProductDocumentDto
+            {
+                LoanProductDocumentId = doc.LoanProductDocumentId,
+                LoanProductId = doc.LoanProductId,
+                DocumentName = doc.DocumentName,
+                IsActive = doc.IsActive
+            });
+        }
+
+        public async Task<bool> UploadLoanProductDocumentAsync(int loanProductId, string documentName, byte[] documentContent, string createdBy)
+        {
+            var doc = new LoanProductDocument
+            {
+                LoanProductId = loanProductId,
+                DocumentName = documentName,
+                DocumentContent = documentContent,
+                IsActive = true,
+                CreatedAt = DateTime.UtcNow,
+                CreatedBy = createdBy
+            };
+            await _repo.AddLoanProductDocumentAsync(doc);
+            return true;
         }
     }
 } 

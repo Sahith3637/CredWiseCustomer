@@ -1,7 +1,15 @@
 # CredWise Customer Management System
 
+## Recent Updates
+- **Repayment API**: The repayment response (`RepaymentScheduleDto`) now includes a `paymentType` property, reflecting the payment method used for each installment.
+- **How It Works API**: Added `GET /api/HowItWorks` endpoint, returning the loan process steps as a list of `HowItWorksStepDto`.
+- **Document Upload**: Added `POST /api/Loan/upload-loan-product-document` endpoint for uploading required documents for loan products.
+- **DTO Documentation**: All DTOs for user, loan, repayment, FD, and document management are now documented in this file for easy reference.
+- **API Endpoint Documentation**: All major endpoints are listed with their request/response DTOs and usage examples.
+- **Payment History by User**: Added `GET /api/Repayment/user/{userId}/payment-history` endpoint to fetch all payment transactions for a user.
+
 ## Project Overview
-CredWise Customer Management System is a .NET 8.0 based application that provides comprehensive user management functionality with secure authentication and authorization features.
+CredWise Customer Management System is a .NET 8.0 based application that provides comprehensive user, loan, repayment, and document management functionality with secure authentication and authorization features.
 
 ## Project Structure
 The solution is organized into multiple projects following Clean Architecture principles:
@@ -117,52 +125,104 @@ The solution is organized into multiple projects following Clean Architecture pr
 - Not using the `Bearer` prefix in the Authorization header.
 - Policy and claim mismatch (policy expects `Admin`, token has something else).
 
+---
+
 ## API Endpoints and Usage
 
 ### User Management
-1. **Create User**
-   ```http
-   POST /api/User
-   Content-Type: application/json
-   {
-     "email": "user@credwise.com",
-     "password": "StrongP@ss123",
-     "firstName": "John",
-     "lastName": "Doe",
-     "phoneNumber": "9876543210"
-   }
-   ```
-2. **Get User by ID**
-   ```http
-   GET /api/User/{id}
-   ```
-3. **Get User by Email**
-   ```http
-   GET /api/User/email/{email}
-   ```
-4. **Get All Users**
-   ```http
-   GET /api/User
-   ```
-5. **Update User**
-   ```http
-   PUT /api/User/{id}
-   Content-Type: application/json
-   {
-     "firstName": "Updated",
-     "lastName": "Name",
-     "phoneNumber": "9876543210",
-     "isActive": true
-   }
-   ```
-6. **Soft Delete User**
-   ```http
-   DELETE /api/User/{id}
-   ```
-7. **Restore User**
-   ```http
-   POST /api/User/{id}/restore
-   ```
+- **Create User**: `POST /api/User`
+- **Get User by ID**: `GET /api/User/{id}`
+- **Get User by Email**: `GET /api/User/email/{email}`
+- **Get All Users**: `GET /api/User`
+- **Update User**: `PUT /api/User/{id}`
+- **Soft Delete User**: `DELETE /api/User/{id}`
+- **Restore User**: `POST /api/User/{id}/restore`
+
+### Loan Management
+- **Apply for Loan**: `POST /api/Loan`
+  - Request: `ApplyLoanDto` (see DTOs section)
+  - Response: `LoanStatusDto`
+- **Get Loan Status**: `GET /api/Loan/{loanApplicationId}`
+- **Get All Loans for User**: `GET /api/Loan/user/{userId}`
+- **Upload Loan Product Document**: `POST /api/Loan/upload-loan-product-document` (multipart/form-data)
+  - Request: `UploadLoanProductDocumentDto` (see DTOs section)
+  - Response: `{ message: string }`
+
+### Repayment Management
+- **Get Repayment Schedule**: `GET /api/Repayment/schedule/{loanApplicationId}`
+  - Response: List of `RepaymentScheduleDto` (now includes `paymentType`)
+- **Submit Repayment**: `POST /api/Repayment/pay`
+  - Request: `SubmitPaymentDto`
+  - Response: `{ message: string, paymentType: string }`
+- **Get Payment History by User**: `GET /api/Repayment/user/{userId}/payment-history`
+  - Response: List of `PaymentHistoryDto`
+
+### Fixed Deposit (FD) Management
+- **Apply for FD**: `POST /api/Fd`
+- **Get FD Status**: `GET /api/Fd/{fdApplicationId}`
+- **Get All FDs for User**: `GET /api/Fd/user/{userId}`
+- **Get FD Payment Schedule**: `GET /api/Fd/payment-schedule/{fdApplicationId}`
+
+### How It Works
+- **Get Steps**: `GET /api/HowItWorks`
+  - Response: List of `HowItWorksStepDto` (see below)
+
+---
+
+## DTOs (Data Transfer Objects)
+
+### User
+- `CreateUserDto`: Email, Password, FirstName, LastName, PhoneNumber, CreatedBy
+- `UpdateUserDto`: FirstName, LastName, PhoneNumber, IsActive, Password
+- `LoginUserDto`: Email, Password
+
+### Loan
+- `ApplyLoanDto`: UserId, LoanProductId, RequestedAmount, RequestedTenure, Gender, DOB, Aadhaar, Address, Income, EmploymentType, CreatedBy, AdditionalDetails (dictionary for type-specific fields)
+- `LoanStatusDto`: LoanapplicationId, UserId, LoanProductId, RequestedAmount, RequestedTenure, Status, DecisionDate, DecisionReason, CreatedAt
+- `LoanProductDocumentDto`: LoanProductDocumentId, LoanProductId, DocumentName, IsActive
+- `UploadLoanProductDocumentDto`: LoanProductId, DocumentName, File (IFormFile)
+
+### Repayment
+- `RepaymentScheduleDto`: RepaymentId, LoanApplicationId, InstallmentNumber, DueDate, PrincipalAmount, InterestAmount, TotalAmount, Status, PaymentType
+- `SubmitPaymentDto`: RepaymentId, Amount
+- `PaymentHistoryDto`: TransactionId, LoanApplicationId, RepaymentId, Amount, PaymentDate, PaymentMethod, Status, Reference
+
+### Fixed Deposit (FD)
+- `FdStatusDto`: FDApplicationId, UserId, FDTypeId, Amount, Duration, InterestRate, Status, MaturityDate, MaturityAmount, CreatedAt
+- `FdPaymentScheduleDto`: Id, FdId, PaymentDate, Amount, Status, PaidDate, TransactionId
+
+### How It Works
+- `HowItWorksStepDto`: StepNumber, Title, Description
+
+---
+
+## Example: How It Works API Response
+```json
+[
+  {
+    "stepNumber": 1,
+    "title": "Apply for the Loan",
+    "description": "Go to the Apply Now page, enter your details for the loan application and apply for the loan."
+  },
+  {
+    "stepNumber": 2,
+    "title": "Submit Your Documents",
+    "description": "As per the requirements of documents, submit your documents and get the response shortly."
+  },
+  {
+    "stepNumber": 3,
+    "title": "Wait for the Approval",
+    "description": "Once the documents are submitted, your loan approval takes a few hours only."
+  },
+  {
+    "stepNumber": 4,
+    "title": "Get Disbursal",
+    "description": "Get the disbursal directly in your linked account and use the fund as per the requirements."
+  }
+]
+```
+
+---
 
 ## Development Environment
 - .NET 8.0
