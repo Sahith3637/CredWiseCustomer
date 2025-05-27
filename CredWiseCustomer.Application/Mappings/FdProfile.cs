@@ -10,9 +10,6 @@ namespace CredWiseCustomer.Application.Mappings
         {
             CreateMap<ApplyFdDto, Fdapplication>();
             CreateMap<Fdapplication, FdStatusDto>();
-            CreateMap<Fdtransaction, FdPaymentScheduleDto>()
-                .ForMember(dest => dest.FDTransactionId, opt => opt.MapFrom(src => src.FdtransactionId))
-                .ForMember(dest => dest.FDApplicationId, opt => opt.MapFrom(src => src.FdapplicationId));
         }
     }
-} 
+}

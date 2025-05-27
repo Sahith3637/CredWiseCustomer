@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gvzxr99gdcQ=",
+  "dgSpecHash": "HEbKZGgAlXM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\Authentication.Service\\Authentication.Service.csproj",
+  "projectFilePath": "C:\\Applications\\CredWise\\Business\\Backend\\CredWise\\Authentication.Service\\Authentication.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sai Sahith Ajju\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.3.1\\microsoft.identitymodel.abstractions.7.3.1.nupkg.sha512",
     "C:\\Users\\Sai Sahith Ajju\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.3.1\\microsoft.identitymodel.jsonwebtokens.7.3.1.nupkg.sha512",

@@ -44,3 +44,19 @@ C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWis
 C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Application\obj\Debug\net8.0\refint\CredWiseCustomer.Application.dll
 C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Application\obj\Debug\net8.0\CredWiseCustomer.Application.pdb
 C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer.Application\obj\Debug\net8.0\ref\CredWiseCustomer.Application.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\CredWiseCustomer.Application.csproj.AssemblyReference.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\CredWiseCustomer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\CredWiseCustomer.Application.AssemblyInfoInputs.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\CredWiseCustomer.Application.AssemblyInfo.cs
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\CredWiseCustomer.Application.csproj.CoreCompileInputs.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\CredWiseCustomer.Application.sourcelink.json
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\refint\CredWiseCustomer.Application.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\bin\Debug\net8.0\CredWiseCustomer.Application.deps.json
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\bin\Debug\net8.0\CredWiseCustomer.Application.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\bin\Debug\net8.0\CredWiseCustomer.Application.pdb
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\bin\Debug\net8.0\CredWiseCustomer.Core.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\bin\Debug\net8.0\CredWiseCustomer.Core.pdb
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\CredWise.7A4150B7.Up2Date
+C:\Applications\CredWise\Business\Backend\CredWise\CredWiseCustomer.Application\obj\Debug\net8.0\ref\CredWiseCustomer.Application.dll

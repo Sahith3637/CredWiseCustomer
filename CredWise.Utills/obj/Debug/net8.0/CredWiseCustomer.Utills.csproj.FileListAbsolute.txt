@@ -41,3 +41,18 @@ C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWis
 C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.pdb
 C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.genruntimeconfig.cache
 C:\Users\Sai Sahith Ajju\Desktop\dupCW\CredWiseCustomer\CredWiseCustomer\CredWiseCustomer\CredWise.Utills\obj\Debug\net8.0\ref\CredWiseCustomer.Utills.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\bin\Debug\net8.0\CredWiseCustomer.Utills.deps.json
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\bin\Debug\net8.0\CredWiseCustomer.Utills.runtimeconfig.json
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\bin\Debug\net8.0\CredWiseCustomer.Utills.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\bin\Debug\net8.0\CredWiseCustomer.Utills.pdb
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.csproj.AssemblyReference.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.AssemblyInfoInputs.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.AssemblyInfo.cs
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.csproj.CoreCompileInputs.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.sourcelink.json
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\refint\CredWiseCustomer.Utills.dll
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.pdb
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\CredWiseCustomer.Utills.genruntimeconfig.cache
+C:\Applications\CredWise\Business\Backend\CredWise\CredWise.Utills\obj\Debug\net8.0\ref\CredWiseCustomer.Utills.dll

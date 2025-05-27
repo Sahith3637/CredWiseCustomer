@@ -4727,11 +4727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj",
+      "projectUniqueName": "C:\\Applications\\CredWise\\Business\\Backend\\CredWise\\CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj",
       "projectName": "CredWiseCustomer.Core",
-      "projectPath": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj",
+      "projectPath": "C:\\Applications\\CredWise\\Business\\Backend\\CredWise\\CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj",
       "packagesPath": "C:\\Users\\Sai Sahith Ajju\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\obj\\",
+      "outputPath": "C:\\Applications\\CredWise\\Business\\Backend\\CredWise\\CredWiseCustomer.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

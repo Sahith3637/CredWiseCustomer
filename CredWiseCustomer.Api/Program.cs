@@ -10,15 +10,40 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Authentication.Service.Interfaces;
-using Authentication.Service.Models;
-using Authentication.Service.Services;
-using System.Security.Claims;
+using CredWiseCustomer.Api;
+using Loggers.service.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
 builder.Services.AddControllers();
+
+// Register AuditLogger
+builder.Services.AddSingleton<AuditLogger>(provider => 
+{
+    try
+    {
+        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+        if (string.IsNullOrEmpty(connectionString))
+        {
+            throw new InvalidOperationException("DefaultConnection string is missing in appsettings.json");
+        }
+        return new AuditLogger(connectionString);
+    }
+    catch (Exception ex)
+    {
+        // Log the error but don't throw - this allows the application to start even if logging fails
+        Console.WriteLine($"Failed to initialize AuditLogger: {ex.Message}");
+        return new AuditLogger(); // Use default connection string
+    }
+});
+
+// Register ApiLoggingFilter
+builder.Services.AddScoped<ApiLoggingFilter>();
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ApiLoggingFilter>();
+});
 
 // Database Configuration
 builder.Services.AddDbContext<AppDbContext>(options =>

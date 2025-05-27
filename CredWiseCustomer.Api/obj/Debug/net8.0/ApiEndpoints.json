@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "CalculatorController",
+    "Method": "CalculateLoanEmi",
+    "RelativePath": "api/Calculator/returns",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ReturnsCalculatorRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ReturnsCalculatorResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "CredWiseCustomer.Api.Controllers.FdController",
     "Method": "ApplyForFd",
     "RelativePath": "api/Fd",
@@ -42,6 +68,32 @@
     "ReturnTypes": [
       {
         "Type": "CredWiseCustomer.Application.DTOs.FdStatusDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CredWiseCustomer.Api.Controllers.FdController",
+    "Method": "GetFdPaymentSchedule",
+    "RelativePath": "api/Fd/payment-schedule/{fdApplicationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fdApplicationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CredWiseCustomer.Application.DTOs.FdPaymentScheduleDto, CredWiseCustomer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -213,7 +265,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CredWiseCustomer.Application.DTOs.UserDto",
+        "Type": "ApiResponse\u00601[[CredWiseCustomer.Application.DTOs.UserDto, CredWiseCustomer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -233,7 +285,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[CredWiseCustomer.Application.DTOs.UserDto, CredWiseCustomer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "ApiResponse\u00601[[System.Collections.Generic.IEnumerable\u00601[[CredWiseCustomer.Application.DTOs.UserDto, CredWiseCustomer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -259,7 +311,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CredWiseCustomer.Application.DTOs.UserDto",
+        "Type": "ApiResponse\u00601[[CredWiseCustomer.Application.DTOs.UserDto, CredWiseCustomer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -290,7 +342,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CredWiseCustomer.Application.DTOs.UserDto",
+        "Type": "ApiResponse\u00601[[CredWiseCustomer.Application.DTOs.UserDto, CredWiseCustomer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -314,7 +366,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "CredWiseCustomer.API.Controllers.UserController",
@@ -330,7 +392,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "CredWiseCustomer.API.Controllers.UserController",
@@ -340,7 +412,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "CredWiseCustomer.API.Controllers.UserController",
@@ -350,7 +432,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "CredWiseCustomer.API.Controllers.UserController",
@@ -384,7 +476,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CredWiseCustomer.Application.DTOs.UserDto",
+        "Type": "ApiResponse\u00601[[CredWiseCustomer.Application.DTOs.UserDto, CredWiseCustomer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -408,6 +500,26 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CredWiseCustomer.API.Controllers.UserController",
+    "Method": "LogTest",
+    "RelativePath": "api/User/logtest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -424,7 +536,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ApiResponse\u00601[[CredWiseCustomer.Application.DTOs.UserDto, CredWiseCustomer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "CredWiseCustomer.Api.Controllers.WeatherForecastController",

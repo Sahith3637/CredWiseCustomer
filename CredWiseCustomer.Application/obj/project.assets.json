@@ -2926,11 +2926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj",
+      "projectUniqueName": "C:\\Applications\\CredWise\\Business\\Backend\\CredWise\\CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj",
       "projectName": "CredWiseCustomer.Application",
-      "projectPath": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj",
+      "projectPath": "C:\\Applications\\CredWise\\Business\\Backend\\CredWise\\CredWiseCustomer.Application\\CredWiseCustomer.Application.csproj",
       "packagesPath": "C:\\Users\\Sai Sahith Ajju\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Application\\obj\\",
+      "outputPath": "C:\\Applications\\CredWise\\Business\\Backend\\CredWise\\CredWiseCustomer.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2951,8 +2951,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj": {
-              "projectPath": "C:\\Users\\Sai Sahith Ajju\\Desktop\\dupCW\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer\\CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj"
+            "C:\\Applications\\CredWise\\Business\\Backend\\CredWise\\CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj": {
+              "projectPath": "C:\\Applications\\CredWise\\Business\\Backend\\CredWise\\CredWiseCustomer.Core\\CredWiseCustomer.Core.csproj"
             }
           }
         }
